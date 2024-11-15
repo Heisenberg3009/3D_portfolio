@@ -39,19 +39,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>An Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl text-justify leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software engineer specializing in full-stack development, IoT, and cross-platform applications, with a strong foundation in Python, JavaScript, and various frameworks such as React, Node, and Flutter. My work includes leading and collaborating on innovative projects like IoT-enabled smart systems and mobile applications that emphasize secure, scalable, and efficient solutions. With experience in deploying robust applications using tools like Docker, Kubernetes, and cloud platforms like Azure, I focus on delivering high-quality, user-centric applications across web and mobile platforms.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

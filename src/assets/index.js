@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import iot from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -22,9 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import redback from "./company/redback.png";
+import brainovision from "./company/brainovision.jpeg";
+import gopher from "./company/gopher.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,7 +33,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
+  iot,
   mobile,
   web,
   github,
@@ -53,9 +53,9 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  redback,
+  brainovision,
+  gopher,
   carrent,
   jobit,
   tripguide,
